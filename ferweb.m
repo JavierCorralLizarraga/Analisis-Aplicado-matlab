@@ -7,7 +7,7 @@ fx = 0;
 
 for j = 1:m
     v = A(:,j);
-    fx = fx + norm(v-x);
+    fx = fx + j*j*norm(v-x);
 end
 
 end
